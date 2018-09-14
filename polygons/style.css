@@ -1,0 +1,47 @@
+body .box {
+  height: 400px;
+  width: 100%;
+}
+
+body .box .inner-box {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+}
+
+body .box .inner-box1 {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 82% 20%, 98% 100%, 17% 68%);
+  clip-path: polygon(0 0, 82% 20%, 98% 100%, 17% 68%);
+}
+
+body .box .inner-box2 {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 30% 25%, 17% 68%);
+  clip-path: polygon(0 0, 100% 0, 30% 25%, 17% 68%);
+}
+
+body .box .inner-box3 {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+body .box .inner-box4 {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+body .box .inner-box5 {
+  background-color: blueviolet;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+/*# sourceMappingURL=style.css.map */
